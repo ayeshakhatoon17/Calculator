@@ -50,15 +50,15 @@ function inputb(){
             break;
         case '-':
             result = a - b;
-            console.log(blue(`${a} + ${b} = ${result}`));
+            console.log(blue(`${a} - ${b} = ${result}`));
              break;
         case '*':
             result = a * b;
-            console.log(blue(`${a} + ${b} = ${result}`));    
+            console.log(blue(`${a} * ${b} = ${result}`));    
           break;
         case '/':
          result = a / b;
-         console.log(blue(`${a} + ${b} = ${result}`));
+         console.log(blue(`${a} / ${b} = ${result}`));
         break;
     
         default:
